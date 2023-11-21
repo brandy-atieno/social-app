@@ -6,6 +6,10 @@ import AuthLayout from './auth/AuthLayout'
 import RootLayout from './root/RootLayout'
 import{ Home }from './root/pages/index.ts'
 import './globals.css'
+import { Toaster } from "@/components/ui/toaster"
+
+
+
 
 
 
@@ -24,6 +28,7 @@ const App = () => {
                   </Route>
 
       </Routes>
+      <Toaster />
 
     </main>
 
